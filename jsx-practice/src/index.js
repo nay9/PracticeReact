@@ -2,8 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const App = () => {
-  return <div>Hello</div>;
-};
+  return (
+  
+  <div>
+    <label className=' label' for='name'>Enter name:</label>
+    <input id='name' type='text'/>
+    <button>Submit</button>
+  </div>
+
+  )};
 
 
 ReactDOM.render(
