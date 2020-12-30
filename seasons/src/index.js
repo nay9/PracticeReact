@@ -12,7 +12,7 @@ const App = () => {
 
 
 return (
-    <div>hi</div>
+    <div><h1>Lattitude:</h1></div>
 )
 };
 
